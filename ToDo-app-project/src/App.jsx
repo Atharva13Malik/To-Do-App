@@ -1,21 +1,23 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
+//import "./App.css";
 
 function App() {
   return (
-    <center class="todo-container">
+    <div className="container text-center todo-container">
       <h1>TODO APP</h1>
 
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-8">col-8</div>
-          <div class="col-4">col-4</div>
-        </div>
+      <div className="row">
+        <div className="col-6">col-4</div>
+        <div className="col-4">col-4</div>
+        <div className="col-2">col-4</div>
       </div>
-    </center>
+    </div>
   );
 }
+
+
+
 
 export default App;
